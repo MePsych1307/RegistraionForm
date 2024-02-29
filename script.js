@@ -68,7 +68,6 @@ function validaterepass() {
 }
 function submitForm() {
     if (validateemail() && validatename() && validatephno() && validatepass() && validaterepass()) {
-        alert('Form submitted');
         var fullName = document.getElementById('name').value;
         var phoneNumber = document.getElementById('phno').value;
         var emailId = document.getElementById('email').value;
